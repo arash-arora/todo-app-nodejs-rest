@@ -1,34 +1,26 @@
 [
   {
-    "taskName": "Walk",
-    "taskDesc": "Go for a walk",
-    "dueDate": "2023-02-10",
-    "status": "not started",
-    "slug": "walk",
-    "id": 13
+    "taskName": "Take jerry to walk",
+    "taskDesc": "Take jerry to walk in evening.",
+    "dueDate": "2023-02-09",
+    "status": "completed",
+    "slug": "take-jerry-to-walk",
+    "id": "6bb11445-5cb9-4fbf-abc8-42d8fc6e807d"
   },
   {
-    "taskName": "Walk",
-    "taskDesc": "Go for a walk",
+    "taskName": "Make cake",
+    "taskDesc": "Make cake because I'm craving",
     "dueDate": "2023-02-10",
     "status": "not started",
-    "slug": "walk",
-    "id": 13
+    "slug": "make-cake",
+    "id": "32bb2b31-17e1-431f-9180-f81b71f27a22"
   },
   {
-    "taskName": "Walk",
-    "taskDesc": "Go for a walk",
-    "dueDate": "2023-02-10",
-    "status": "not started",
-    "slug": "walk",
-    "id": "48ce4aba-96de-4ae3-a45f-0d100859248c"
-  },
-  {
-    "taskName": "test",
-    "taskDesc": "test description",
-    "dueDate": "2023-02-14",
-    "status": "yet to be assigned",
-    "slug": "test",
-    "id": "34776fe2-e6c8-4752-a6e1-090eb5a99825"
+    "taskName": "Complete your todo app",
+    "taskDesc": "Complete your todo app using Rest APIs",
+    "dueDate": "2023-02-09",
+    "status": "started",
+    "slug": "complete-your-todo-app",
+    "id": "4ce39e0f-531a-4f85-9cbc-41253ad62edd"
   }
 ]
