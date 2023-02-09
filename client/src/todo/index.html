@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="menu">
+        <a class="btn" href="/client/src/">Go Back</a>
+        <a class="btn update__task">Update a task</a>
+        <a class="btn delete__task">Delete</a>
+      </div>
+      <form class="update__form hide form" id="form" method="POST">
+        <input name="taskName" type="text" placeholder="Task Name" required />
+        <input
+          name="taskDesc"
+          type="text"
+          placeholder="Task Description"
+          required
+        />
+        <input name="dueDate" type="date" id="" required />
+        <input name="status" type="text" placeholder="Status" required />
+        <input name="slug" type="text" placeholder="slug" required />
+        <button>Submit</button>
+      </form>
+      <section id="todos_list"></section>
+    </main>
+    <script src="todo.js"></script>
+  </body>
+</html>

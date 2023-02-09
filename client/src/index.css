@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.menu {
+  margin: 40px 0;
+}
+
+.container .todos_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+.task__content,
+.task__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.task__date {
+  background-color: #eee;
+  padding: 2px;
+}
+.task__status {
+  min-width: 80px;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.main__todo__container {
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.btn {
+  background: #fd8002;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+  opacity: 0.97;
+}
+.btn:hover {
+  opacity: 1;
+}
+.delete__task {
+  background-color: rgb(233, 40, 40);
+}
+.update__task {
+  background-color: rgb(13, 81, 93);
+}
+.add__task {
+  background-color: rgb(16, 103, 16);
+}
+
+.todo__link {
+  color: #000;
+}
+
+.hide {
+  display: none;
+}
+
+.form {
+  padding: 40px;
+}
+.form input {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #a9a6a6;
+  border-radius: 8px;
+}
+.form button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(35, 109, 123);
+}
+.form button:hover {
+  background-color: rgb(23, 93, 105);
+}
